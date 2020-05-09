@@ -1,0 +1,83 @@
+body
+{
+    background-color: #898989;
+}
+
+.cadena
+{
+    background-color: #C6C6C6;
+    border: 4px solid black;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    font-size: 18px;
+    font-family: impact;
+}
+
+.container
+{
+    background-color: white;
+    height: 80px;
+}
+.boton
+{
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: impact;
+    background-color: white;
+    cursor: pointer;
+    
+}
+.boton:hover
+{
+    background-color: #C6C6C6;
+}
+
+
+#maquina
+{
+    height: 80px;
+    width: auto;
+    margin: 0px auto;
+    float: left;
+}
+#maquina > div
+{
+    background: url(../img/rect.png);
+    width: 50px;
+    height: 70px;
+    margin: 5px;
+    float: left;
+    font-family: impact;
+    font-size: 55px;
+    color: black;
+    text-align: center;
+    display: block;
+}
+#cursor
+{
+    padding: 10px;
+    float: left;
+    width: auto;
+}
+
+#estatus
+{
+    width: 200px;
+    height: auto;
+    float: left;
+    font-family: Calibri;
+    font-size: 15px;
+    background: white;
+}
+#oculto
+{
+    display: none;
+    padding: 10px;
+    float: left;
+}
