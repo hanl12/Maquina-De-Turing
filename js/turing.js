@@ -5,6 +5,8 @@ function ejecutar()
     cont = 0;
     estado = "q1";
     sw = 0;
+    document.getElementById("oculto").style.display = "none";
+    document.getElementById("cursor").style.visibility = "visible";
 
     function validacion()
     {
